@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-API_URL = "https://ansh-apis.is-dev.org/api/numinfofree"
-API_KEY = "anurag"
+API_URL = "https://ashuapi.ashupanel.online/api/gateway.php"
+API_KEY = "sevenday"
 
 
 @app.route("/")
